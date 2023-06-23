@@ -28,7 +28,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 3s
-  targetNamespace: production
   sourceRef:
     kind: GitRepository
     name: idp-demo
@@ -42,7 +41,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 3s
-  targetNamespace: production
   sourceRef:
     kind: GitRepository
     name: idp-demo
