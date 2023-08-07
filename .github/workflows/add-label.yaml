@@ -20,7 +20,6 @@ jobs:
         with:
           identifier: some_identifier
           title: Some Title
-          team: []
           icon: DefaultBlueprint
           blueprint: namespace
           properties: |-
